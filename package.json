@@ -1,0 +1,11 @@
+{
+  "name": "root",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IfyNdu/capegemini-frog-tech-test"
+  },
+  "devDependencies": {
+    "lerna": "6.1.0"
+  }
+}

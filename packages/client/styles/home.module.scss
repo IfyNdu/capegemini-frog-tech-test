@@ -1,0 +1,52 @@
+.root {
+  display: flex;
+  padding: 6rem;
+  height: inherit;
+
+  background-image: url("https://images.pexels.com/photos/354939/pexels-photo-354939.jpeg");
+  background-size: cover;
+  overflow-x: scroll;
+}
+
+
+.addNewList {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  padding-top: 16px;
+  padding-right: 24px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  margin-bottom: auto;
+  min-width: 345px;
+
+  border-radius: 4px;
+}
+
+.addTextField {
+  background-color: #ffffff;
+}
+
+.addButton {
+  margin-left: auto;
+  width: 100px;
+}
+
+.taskList {
+  &:not(:last-of-type) {
+    margin-right: 12px;
+  }
+}
+
+.mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+
+  background: #ffffff;
+  opacity: 0.2;
+  border-radius: 4px;
+}

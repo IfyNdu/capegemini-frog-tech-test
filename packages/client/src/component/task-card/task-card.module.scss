@@ -1,0 +1,5 @@
+.root {
+  &:not(:last-of-type) {
+    margin-bottom: 8px;
+  }
+}

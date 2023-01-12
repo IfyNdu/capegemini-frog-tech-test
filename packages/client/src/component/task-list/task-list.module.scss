@@ -1,0 +1,23 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  padding-top: 16px;
+  padding-right: 24px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  max-height: 90vh;
+  min-width: 345px;
+
+  background-color: #f6f6f6;;
+  border-radius: 4px;
+  overflow: scroll;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.addCard {
+  padding-top: 8px;
+}
